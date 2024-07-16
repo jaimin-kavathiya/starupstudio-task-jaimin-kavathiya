@@ -8,7 +8,7 @@ import CartIcon from "@/assets/images/header-icons/bag-icon.png";
 import ProfileIcon from "@/assets/images/header-icons/profile-icon.png";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
+import {  
   faBars,
   faCheck,
   faChevronDown,
@@ -105,8 +105,6 @@ function Header() {
                 ""
               )}
             </div>
-
-            {/* TODO add dropdown here */}
           </div>
         </div>
         <div className="sm:border-b hidden sm:flex items-center justify-center sm:gap-10 md:gap-14 px-14 py-5">

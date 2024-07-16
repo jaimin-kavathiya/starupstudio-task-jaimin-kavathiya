@@ -11,11 +11,14 @@ const ProductCard: React.FC<ProdctProps> = (props) => {
 
   return (
     <div key={product.id} className="min-w-[167px] mb-3 max-w-[300px]">
-      <img
+      <Image
           className="w-full h-[224px]"
           src={product.image}
           alt={product.title}
-        />
+          width={300}
+          height={100}
+          priority
+          />
       <div>
         <h2 className='whitespace-nowrap text-ellipsis overflow-hidden w-10/12 text-lg font-bold'>{product.title}</h2>
         <div className='flex gap-2 text-gray-400 font-light text-sm items-end'>

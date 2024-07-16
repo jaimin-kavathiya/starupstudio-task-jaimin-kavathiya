@@ -24,15 +24,7 @@
 }
 
 .title {
-  color: #333;
-
-  /* Desktop/H5/Medium */
-  font-family: var(--medium);
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 300;
   margin: 0;
-  /* 27px */
 }
 
 .icon {
@@ -58,7 +50,7 @@
   font-size: 16px;
   line-height: 28px;
   color: #535564;
-  margin-top: 40px;
+  margin-top: 20px;
   transition: max-height 0.5s linear;
   margin-bottom: -16px;
 }
